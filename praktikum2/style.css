@@ -1,0 +1,72 @@
+h1, h2, h3 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  color: #3e2723;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+}
+
+.logo-warung {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+header p {
+  text-align: center;
+  color: gray;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3e2723;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #3e2723;
+}
+
+.menu-section {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.menu-item p {
+  color: rgb(216, 67, 21);
+  font-weight: bold;
+}
+
+.menu-item:hover {
+  background-color: #efebe9;
+}
